@@ -7,13 +7,17 @@ http://localhost:8080/crazyair/api/search
 http://localhost:8080/toughjet/api/search
 
 to run the application 
+
 cd travix
+
 java -jar busy-flight.jar
 
 from any rest client or curl, use the following data to call the api:
 
 url: http://localhost:8080/busyflight/api/search
+
 method: post
+
 body: 
 {
   "origin": "LSH",
